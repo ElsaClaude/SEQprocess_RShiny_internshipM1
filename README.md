@@ -21,4 +21,4 @@ Open R and create a script with the following commands :
 Then install extern tools that are necessary for the pipelines (see list on the github page).  
 **/!\ MuTect2 seems to be already install when GATK is downloaded /!\**
 
-04/06 11:58 : reste ANNOVAR , HT-Seq et Cufflinks à installer
+05/06 17:40 -> path bwa index OK, what is chroms ????, mutect2 ???, continuer au path du bowtie index
