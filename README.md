@@ -21,4 +21,6 @@ Open R and create a script with the following commands :
 Then install extern tools that are necessary for the pipelines (see list on the github page).  
 **/!\ MuTect2 seems to be already install when GATK is downloaded /!\**
 
+The Config.R file contains the pre-configured pipelines but it may be necessary to modify it. For example to set the correct directory of the reference files or which
+
 05/06 17:40 -> path bwa index OK, what is chroms ????, mutect2 ???, continuer au path du bowtie index

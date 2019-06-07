@@ -1,0 +1,11 @@
+###### dseq-GDC
+SEQprocess(project.name="Dseq-GDC-variantcall",
+           fastq.dir="/net/travail/elclaude/stageM1/data",
+           output.dir="/net/travail/elclaude/stageM1/outputs",
+           config.fn="/net/travail/elclaude/R/x86_64-pc-linux-gnu-library/3.5/SEQprocess/data/config.R",
+           type="WES",
+           pipeline="GDC",
+           variant.call.method="somaticsniper",
+           annotation.method = "vep",
+           mc.cores=20,
+           run.cmd=TRUE )
