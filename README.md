@@ -4,7 +4,7 @@
 ## SEQprocess
 ### How to install SEQprocess and its tools
 
-This manual complete the one provided by the research team which developped SEQprocess in order to give access to the pipelines to beginners in computer science.
+This manual completes the one provided by the research team which developped SEQprocess in order to give access to the pipelines to beginners in computer science.
 
 SEQprocess Github : https://github.com/omicsCore/SEQprocess  
 Supported installation : Linux  
