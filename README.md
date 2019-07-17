@@ -56,7 +56,7 @@ Then, open Rstudio and create a script with the following commands :
   install.packages("ggplot2")
   install.packages("reshape2")
   ```
-The devtools package maybe need some extra package to be installed correctly. You may have to add the **openssl-dev**, **libcurl** and the **libxml2-dev** libraries to your system. If you work on a virtual environment you should use Conda to do it. Or if you are on the base environment (the one per default if you do not activate another) you can also use a shell command to have it directly on your system :
+The devtools package may need some extra package to be installed correctly. You may have to add the **openssl-dev**, **libcurl** and the **libxml2-dev** libraries to your system. If you work on a virtual environment you should use Conda to do it. Or if you are on the base environment (the one per default if you do not activate another) you can also use a shell command to have it directly on your system :
   ```
   #Try to search for the last version available
   sudo apt-get install libssl-dev
