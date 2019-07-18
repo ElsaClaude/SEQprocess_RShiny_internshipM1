@@ -158,7 +158,32 @@ If this is in your system, it could be in the following path :
 #### 2.2 Reference files
 
 As you can see in the pre-formatted config.R script, SEQprocess needs various sort of references files.
-Some can be found on the internet.
+Some can be found on the internet. Here, we will talk about reference files for human NGS analysis.
+
+* The **ref.fa** variable is the genome fasta file you need to use as reference with the GRCh38 version (at the present time, July 2019). You can find the last version of it here : https://www.ncbi.nlm.nih.gov/projects/genome/guide/human/index.shtml.
+
+* The **bwa.idx** variable indicated the path of directory where BWA index are stored. In fact, you need to create those files. For that, you should follow these instructions : http://bio-bwa.sourceforge.net/bwa.shtml.  
+Example :
+  ```
+  bwa index data.fa
+  ```
+**/!\ Be sure that your index files have the same name (before the extension) as the fasta reference file.** For example, if your fasta is "data.fasta", your BWA index could be "data.fa.inn" but it will not work. In this case, you must rename your reference file to fit the index so it should become "data.fa".
+Once you have done this, you can set the path of the different index files by setting the path and the begenning of your files name. With the previous example, the path could be :
+  ```
+  "/elclaude/travail/stageM1/data.fa"
+  ```
+
+* The **bowtie.idx** variable is similar to the **bwa.idx** but is for the bowtie2 tool. To create the bowtie index files you can follow these instructions : http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#the-bowtie2-build-indexer.
+**/!\ SEQprocess ask for .bt2l index files. So to force bowtie2 to build those sort of files you should add --large-index to your command line.** Example :
+  ```
+  bowtie2-build --large-index data.fa
+  ```
+
+* The **star.idx** variable must be the path of star index files. To create those you can follow these instructions : http://labshare.cshl.edu/shares/gingeraslab/www-data/dobin/STAR/STAR.posix/doc/STARmanual.pdf.
+
+* 
+
+
 
 ### 3. How to use SEQprocess pipelines
 
