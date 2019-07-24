@@ -5,14 +5,14 @@
 ### 1. How to install SEQprocess and its tools
 #### 1.1 General information
 
-SEQprocess is a pipeline framework developed by Taewoon Joo, Ji-Hye Choi, Ji-Hye Lee, So Eun Park, Youngsic Jeon, Sae Hoon Jung & Hyun Goo Woo : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2676-x
+SEQprocess is a pipeline framework developed by Taewoon Joo, Ji-Hye Choi, Ji-Hye Lee, So Eun Park, Youngsic Jeon, Sae Hoon Jung & Hyun Goo Woo : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2676-x.  
 This manual completes the one provided by the research team which developed SEQprocess in order to give access to the pipelines to beginners in computer science.
 
 SEQprocess Github : https://github.com/omicsCore/SEQprocess  
 Supported installation : Linux  
 Supported files format : paired-end fastq  
 
-**/!\ need the 3.5 version of R /!\**  
+**/!\ need the 3.5 version of R /!\\**  
 R can be downloaded with a shell command in your terminal or directly on the website of the cran-project. It is higly recommanded to download a 3.5 version of it.
 Some packages can be heavy. Set R folder in a place where you have enough memory space.  
 
@@ -73,25 +73,25 @@ Then you have to install external tools that are necessary for the pipelines. Fo
 
 Package | Installation
 :-: | -:
- ** FASTQC v0.11.5 ** | Conda
- ** Trim Galore v0.4.2 ** | Conda
- ** Cutadapt v1.11** | Manually
- ** BWA v0.7.15 ** | Manually
- ** SAMtools v0.1.18** | Conda
- ** STAR v2.5.2b** | Conda
- ** Tophat2 v2.1.1** | Conda
- ** Bowtie2 v2.2.9** | Conda
- ** Picard v2.17.4** | Conda
- ** GATK v3.7** | Manually
- ** SomaticSniper v1.0.5.0** | Conda
- ** Varscan2 v2.4.3** | Conda
- ** MuSE v1 Orc** | Conda
- ** Variant Effect Predictor v91** | Conda
- ** ANNOVAR ** | Manually
- ** HT-Seq v0.6.1** | Conda
- ** Cufflinks v2.2.1** | Conda
+ **FASTQC v0.11.5** | Conda
+ **Trim Galore v0.4.2** | Conda
+ **Cutadapt v1.11** | Manually
+ **BWA v0.7.15** | Manually
+ **SAMtools v0.1.18** | Conda
+ **STAR v2.5.2b** | Conda
+ **Tophat2 v2.1.1** | Conda
+ **Bowtie2 v2.2.9** | Conda
+ **Picard v2.17.4** | Conda
+ **GATK v3.7** | Manually
+ **SomaticSniper v1.0.5.0** | Conda
+ **Varscan2 v2.4.3** | Conda
+ **MuSE v1 Orc** | Conda
+ **Variant Effect Predictor v91** | Conda
+ **ANNOVAR ** | Manually
+ **HT-Seq v0.6.1** | Conda
+ **Cufflinks v2.2.1** | Conda
 
-**/!\ MuTect2 seems to be already installed when GATK is downloaded /!\**
+**/!\ MuTect2 seems to be already installed when GATK is downloaded /!\\**
 
 #### 1.2 Small guide to install packages with Conda
 
