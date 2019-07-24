@@ -5,7 +5,8 @@
 ### 1. How to install SEQprocess and its tools
 #### 1.1 General information
 
-This manual completes the one provided by the research team which developped SEQprocess in order to give access to the pipelines to beginners in computer science.
+SEQprocess is a pipeline framework developed by Taewoon Joo, Ji-Hye Choi, Ji-Hye Lee, So Eun Park, Youngsic Jeon, Sae Hoon Jung & Hyun Goo Woo : https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2676-x
+This manual completes the one provided by the research team which developed SEQprocess in order to give access to the pipelines to beginners in computer science.
 
 SEQprocess Github : https://github.com/omicsCore/SEQprocess  
 Supported installation : Linux  
@@ -170,7 +171,7 @@ Example :
 **/!\ Be sure that your index files have the same name (before the extension) as the fasta reference file.** For example, if your fasta is "data.fasta", your BWA index could be "data.fa.inn" but it will not work. In this case, you must rename your reference file to fit the index so it should become "data.fa".
 Once you have done this, you can set the path of the different index files by setting the path and the begenning of your files name. With the previous example, the path could be :
   ```
-  "/elclaude/travail/stageM1/data.fa"
+  "/elclaude/travail/stageM1/data"
   ```
 
 * The **bowtie.idx** variable is similar to the **bwa.idx** but is for the bowtie2 tool. To create the bowtie index files you can follow these instructions : http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml#the-bowtie2-build-indexer.
@@ -181,10 +182,14 @@ Once you have done this, you can set the path of the different index files by se
 
 * The **star.idx** variable must be the path of star index files. To create those you can follow these instructions : http://labshare.cshl.edu/shares/gingeraslab/www-data/dobin/STAR/STAR.posix/doc/STARmanual.pdf.
 
-* 
+* The **transcriptome.idx** remanes unknown. Please, feel free to give information about that.
 
+* The reference files for variant calling can easly be found on a GATK resource bundle : https://software.broadinstitute.org/gatk/download/bundle. But, you can get the **ref.dbSNP** file on another website. Check this NCBI ftp server : ftp://ftp.ncbi.nlm.nih.gov/snp/organisms/ , select the last human genome version GRCh38, then click on "VCF" and take the corresponding file.
 
+* The RNAquantitiation needs some extra files provided by Gencode : https://www.gencodegenes.org/human/.
 
 ### 3. How to use SEQprocess pipelines
 
-donner droit accès fichiers chmod
+As it is shown on the Github guide of the research team, you can make various sort of R commands (or shell commands) to use a pipeline. On the current account there is a **commands.txt** file which contains txo examples of command to use to test your installation.
+
+**/!\ You may have permission errors due to some rights you did not set for some files or directories. Be sure to make a "chmod" command to get all access.**
