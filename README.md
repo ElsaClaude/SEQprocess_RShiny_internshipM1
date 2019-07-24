@@ -190,6 +190,6 @@ Once you have done this, you can set the path of the different index files by se
 
 ### 3. How to use SEQprocess pipelines
 
-As it is shown on the Github guide of the research team, you can make various sort of R commands (or shell commands) to use a pipeline. On the current account there is a **commands.txt** file which contains txo examples of command to use to test your installation.
+As it is shown on the Github guide of the research team, you can make various sort of R commands (or shell commands) to use a pipeline. On the current account there is a **commands.txt** file which contains a basic example of command to use to test your installation.
 
 **/!\ You may have permission errors due to some rights you did not set for some files or directories. Be sure to make a "chmod" command to get all access.**
