@@ -13,8 +13,8 @@ Supported installation : Linux
 Supported files format : paired-end fastq  
 
 **/!\ need the 3.5 version of R /!\\**  
-R can be downloaded with a shell command in your terminal or directly on the website of the cran-project. It is higly recommanded to download a 3.5 version of it.
-Some packages can be heavy. Set R folder in a place where you have enough memory space.  
+R can be downloaded with a shell command in your terminal or directly on the website of the cran-project. It is higly recommanded to download a 3.5 version of it.  
+Some packages can be heavy : set R folder in a place where you have enough memory space.  
 
 In the next parts you will have to install packages on your system. You can do it with shell commands or with Conda installation. If you do not know how to install packages with Conda, be sure to read the "How to install packages with Conda".
 
